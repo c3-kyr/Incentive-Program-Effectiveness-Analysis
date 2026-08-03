@@ -57,9 +57,13 @@ python analysis/02_statistical_analysis.py
 python analysis/03_incentive_simulation.py
 ```
 
-## Resume Bullet Points
-> **Incentive Program Effectiveness Analysis | Python, BigQuery SQL, Statistical Modeling**
-> - Simulated 12 months of agent performance data (200 agents) and utilized regression analysis to identify perverse outcomes of volume-based incentive structures.
-> - Found strong negative correlation between call volume and FCR (r = -0.401), revealing that 63.5% of lowest-paid (Bronze tier) agents were actually in the top half of quality performance.
-> - Modeled a redesigned incentive structure using Monte Carlo simulations (1,000 iterations), projecting a substantial improvement in CSAT and **$495K+** in annual net cost savings from reduced repeat call volume.
-> - Wrote 8 production-grade BigQuery SQL queries utilizing window functions, NTILE, and CTEs to analyze KPI distribution and team rankings.
+## Visual Output Examples
+
+### Incentive Misalignment
+![Incentive Misalignment](output/12_incentive_misalignment.png)
+
+### Call Volume vs First Call Resolution
+![Call Volume vs First Call Resolution](output/03_volume_vs_fcr.png)
+
+### Projected ROI (Monte Carlo Simulation)
+![ROI Analysis](output/16_roi_analysis.png)
